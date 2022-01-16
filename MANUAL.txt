@@ -1,0 +1,43 @@
+#################### INSTRUCTIONS - VIEW THE CODE AND RUN THE APP ####################
+
+
+1st WAY (highly recommented): GoormIDE container
+
+(1) Click this link: https://goor.me/Pxxhb
+(2) Write in terminal: mysql-ctl cli (to start MySQL server)
+(3) Click run button (top right corner) to execute index.py
+(4) Click Preview (top right corner) to open app screen
+
+All necessary modules are installed
+No goormide account is necessary.
+Everyone using the upper link has root permissions (read & write & execute)
+If something goes wrong (eg. freeze, blackscreen) refresh the preview page or restart index.py execution
+
+
+2nd WAY: Github
+
+(1) Click this link: https://github.com/evangeliagaga/DatabasesProject_Team08.git
+(2) Download SourceCode folder
+(3) Follow the instructions to run the program locally (3rd Way)
+
+
+3rd WAY: Local
+
+To run the program locally, you need MySQL and Python.
+Also, you need the following Python modules:
+- tkinter (standard)
+- mysql.connector (In terminal: pip install mysql-connector-python)
+- PIL (In terminal: pip install Pillow)
+
+(1) Start MySQL server
+(2) Run SourceCode\create_user.sql
+(3) Run SourceCode\create_database.sql
+(4) Run SourceCode\create_tables.sql
+(5) Run SourceCode\insert_data.sql
+(6) Run index.py
+
+
+
+NOTE: By choosing 2nd or 3rd way you need to run all the sql files and install all modules (as described above). 
+Using 1st way if highly recommended because everything is prepared inside the container.
+
